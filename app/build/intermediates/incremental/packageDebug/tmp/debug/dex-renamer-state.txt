@@ -1,0 +1,7 @@
+#Mon Nov 02 16:28:37 AST 2026
+base.1=C\:\\ThreatLocker\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+path.1=2/classes.dex
+base.0=C\:\\ThreatLocker\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex

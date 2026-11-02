@@ -1,0 +1,171 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:2:1-68:12
+	package
+		INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:4:5-77
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:4:22-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:5:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:6:5-88
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:6:22-86
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:9:22-74
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:10:5-94
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:10:22-92
+uses-permission#android.permission.BIND_DEVICE_ADMIN
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:11:22-73
+application
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:13:5-67:19
+INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:13:5-67:19
+	android:extractNativeLibs
+		INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:15:9-56
+	android:allowBackup
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:16:9-36
+	android:directBootAware
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:17:9-39
+activity#com.reddevil.locker.MainActivity
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:19:9-27:20
+	android:excludeFromRecents
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:21:13-46
+	android:launchMode
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:22:13-48
+	android:exported
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:19:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:24:17-68
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.reddevil.locker.LockActivity
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:29:9-33:74
+	android:excludeFromRecents
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:32:13-48
+	android:exported
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:33:13-71
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:29:19-47
+service#com.reddevil.locker.LockService
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:35:9-39:19
+	android:exported
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:36:13-37
+	android:foregroundServiceType
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:37:13-55
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:35:18-45
+property
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:38:13-115
+	android:value
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:38:83-113
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:38:23-82
+service#com.reddevil.locker.WatchdogService
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:42:13-36
+	android:permission
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:43:13-79
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:41:18-49
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:44:13-46:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:45:17-91
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:45:25-89
+meta-data#android.accessibilityservice
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:47:13-122
+	android:resource
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:47:68-120
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:47:24-67
+receiver#com.reddevil.locker.BootReceiver
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:50:9-57:20
+	android:exported
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:51:13-36
+	android:directBootAware
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:52:13-43
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:50:19-47
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:53:13-56:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:54:17-78
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:54:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:55:17-85
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:55:25-83
+receiver#com.reddevil.locker.AdminReceiver
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:59:9-66:20
+	android:exported
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:61:13-36
+	android:permission
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:60:13-70
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:59:19-48
+meta-data#android.app.device_admin
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:62:13-103
+	android:resource
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:62:64-100
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:62:24-63
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:63:13-65:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:64:17-82
+	android:name
+		ADDED from C:\ThreatLocker\app\src\main\AndroidManifest.xml:64:25-79
+uses-sdk
+INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml
+INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\ThreatLocker\app\src\main\AndroidManifest.xml

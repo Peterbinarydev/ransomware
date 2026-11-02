@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.reddevil.locker.app-merged_res-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\ThreatLocker\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "102,55",
+                        "endColumns": "75,46",
+                        "endOffsets": "173,97"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,131",
+                        "endColumns": "75,46",
+                        "endOffsets": "126,173"
+                    }
+                }
+            ]
+        }
+    ]
+}
